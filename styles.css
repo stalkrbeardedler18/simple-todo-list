@@ -32,14 +32,14 @@ ul {
     padding: 0;
 }
 
-task {
+.task {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
 
-task.completed {
+.task.completed {
     text-decoration: line-through;
     color: #888;
 }
